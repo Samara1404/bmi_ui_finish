@@ -7,4 +7,10 @@ class AppText {
   static const cm = 'cm';
   static const weight = 'WEIGHT';
   static const age = 'AGE';
+  static const String backButton = 'Кабыл алуу';
+static const String thin = 'Сиз арыксыз...';
+static const String normal = 'Азаматсыз сиз нормалдуусуз!!!';
+static const String fat = 'Сиз толмочсуз...';
+static const String sorry =
+      'Кечиресиз кээ бир себептерден улам эсептей албадык';
 }

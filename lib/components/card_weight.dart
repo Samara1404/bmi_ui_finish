@@ -1,6 +1,7 @@
-import 'package:bmi_ui_finish/utils/app_colors.dart';
-import 'package:bmi_ui_finish/utils/app_text.dart';
-import 'package:flutter/material.dart';
+ import 'package:bmi_ui_finish/utils/app_colors.dart';
+ import 'package:bmi_ui_finish/utils/app_text.dart';
+ import 'package:flutter/material.dart';
+
 
 class CardWeight extends StatefulWidget {
   CardWeight({
@@ -53,7 +54,7 @@ class _CardWeightState extends State<CardWeight> {
                   onPressed: uncrementWeighter,
                   tooltip: 'Decrease',
                   child: Icon(Icons.remove),
-                  backgroundColor: AppColor.grColor,
+                  backgroundColor: AppColor.glColor,
                 ),
                 SizedBox(width: 10),
                 FloatingActionButton.small(
